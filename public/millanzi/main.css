@@ -1,0 +1,163 @@
+/*RESET STYLES AND IMPORTS*/
+
+@import 'sawazisha.css';
+@import 'layout/kompyuta.css';
+@import 'moduli/hero.css';
+
+/*MODULES*/
+@import 'moduli/batani.css';
+@import 'moduli/logo.css';
+
+/*RESET*/
+html,body{
+}
+
+html{
+    box-sizing:border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+
+/*THEME STYLES*/
+.background-primary{
+    background:#F7941E;
+}
+
+.background-secondary{
+    background: #00AEEF;
+}
+
+.background-tertiary{
+    background: #8DC63F;
+}
+
+/*BASE STYLES*/
+body{
+    color:#414042;
+    font-family:'Arial','Helvetica',sans-serif;
+    font-weight: normal;
+}
+
+h1,h2,h3{
+    font-weight:bold;
+}
+
+a{
+    color:#8dc63f;
+}
+a:hover{
+    text-decoration:underline;
+}
+
+/*LAYOUT STYLES*/
+.kontena{
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto;
+    max-width:1170px;
+    height:100vh;
+    min-height:100vh;
+}
+
+.roo{
+    margin-left:-15px;
+    margin-right: -15px;
+}
+
+.roo:after{
+    content:"";
+    display: table;
+    clear:both;
+}
+
+[class*="kolamu-"]{
+    width:100%;
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+/* SMALL DEVICES ONLY*/
+@media only screen and (max-width:47.9375em){
+    .toa-nafasi-tupu{
+        padding-left:0px;
+        padding-right:0px;
+    }
+}
+
+/*MODAL STYLES*/
+
+.modal-header_btn-wrap{
+    position: absolute;
+    top:0.75rem;
+    right:0.75rem;
+}
+
+.modal-header{
+    postion:relative;
+}
+
+/*HEADER STYLES*/
+.header-primary{
+    background-color: #9B8579;
+    text-align:center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.logo{
+    display:inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo-primary{
+    width:74px;
+    width:74px;
+    border:1px solid red;
+}
+
+.logo-primary img{
+    height:100%;
+}
+
+
+/*SMALL AND ABOVE STYLES*/
+
+@media (min-width:48em){
+    [class*="kolamu-"]{
+        float:left;
+    }
+    
+    .sukuma-kulia{
+        float:right;
+
+    }
+
+    .sukuma-kushoto{
+        float:left;
+    }
+
+    .kolamu-1-3{
+        width:33.3333%;
+    }
+    .kolamu-2-3{
+        width:66.6666%;
+    }
+
+    .kolamu-1-4{
+        width:24.9735%;
+    }
+
+    .kolamu-1-2{
+        width:49.9375%;
+
+    }
+
+
+
+}/*END OF STYLES*/
+
+

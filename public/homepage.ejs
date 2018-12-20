@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= title %></title>
+    <link rel="stylesheet" href="front_end_libraries/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="front_end_libraries/support_old/html5shiv.min.js">
+    <link rel="stylesheet" href="front_end_libraries/support_old/respond.min.js">
+    <link rel="stylesheet" href="css/sample.css">
+    <script src="js/sample.js"></script>
+
+</head>
+<body>
+
+  
+    
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">UQS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href=<%= links.login%>>Administrator login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href=<%= links.about%> >About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Useful links</a>
+            </li>  
+
+            <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Dropdown link
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+
+  
+          </ul>
+        </div>  
+      </nav>
+      <br>
+      
+    <div class="container-fluid">
+    <p>Welcome to University Quick Search (UQS)
+        A place to look after students details and ongoing status<br>
+        In the university
+    </p>
+    <form action="/" method="POST">
+        <label for="search">ID  :</label><br>
+        <input type="search" name="q" id="search" autocomplete="off" placeholder="eg 2017-04-02392" style="padding-left:20px;color:green;"><br/><br/>
+         <%- available%>     
+    
+     <input type="submit" value="Check" id="btn"><br>
+
+
+    </form>
+    <br>
+   </div>
+    <% if(n!=undefined&&n!=''&&n!=null){ %>
+    
+    <%- n%>
+    <%- data%>
+    
+    <% }else{ %>
+
+        <% } %>
+
+    <br><br>
+    </div>
+    <script src="front_end_libraries/jquery/jquery-3.3.1.js"></script>
+    <script src="front_end_libraries/bootstrap/js/bootstrap.min.js"></script>       
+</body>
+</html>
+

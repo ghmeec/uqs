@@ -1,0 +1,79 @@
+html,*{
+box-sizing:border-box; 
+}
+
+nav{
+background-color:teal; 
+}
+body {
+    text-align: center;
+}
+
+#search {
+    width: 90%;
+    height: 50px;
+    border-radius: 2px;
+    border: none;
+    background-color: white;
+    font-size: 1.5em;
+    border-bottom: 2px solid teal;
+}
+
+#search:focus,
+#search:hover,
+#search:active {
+    border-color: teal;
+    transition: 0.5s ease-in-out;
+    transform: scale(1.1);
+    outline: none;
+}
+
+#btn {
+    width: 90%;
+    background-color: teal;
+    height: 45px;
+    border-style: none;
+    border-radius: 5px;
+    transition: 0.5s ease-in-out;
+    color: white;
+    border: none;
+}
+
+#btn:hover,
+#btn:active,
+#btn:focus {
+    cursor: pointer;
+    border-style: none;
+    border: none;
+    transform: scale(1.1);
+    outline: 0px none;
+}
+
+a,
+a:visited,
+:active {
+    color: white;
+    text-decoration: none;
+    outline: none;
+}
+
+li {
+    display: inline;
+    margin-top: 2px;
+}
+
+*:active {
+    color: black;
+}
+
+.navbar-nav li:hover {
+    background-color: #888;
+}
+
+
+
+.navbar-nav:active,
+.navbar-nav:hover,
+.navbar-nav:focus {
+    outline: none;
+}
