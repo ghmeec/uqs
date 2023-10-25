@@ -1,7 +1,11 @@
 FORM TUTORIAL
-https://www.linkedin.com/pulse/how-create-validate-form-laravel-8-muhammad-rehman/
 https://www.positronx.io/laravel-contact-form-example-tutorial/
+https://dev.to/sanajitjana/form-example-in-laravel-8-45oc
+https://www.linkedin.com/pulse/how-create-validate-form-laravel-8-muhammad-rehman/
 https://www.geeksforgeeks.org/different-ways-for-passing-data-to-view-in-laravel/
 
 API TUTORIAL
 https://olodocoder.hashnode.dev/laravel-api-series-setup-database-migrations-and-models
+
+api extra
+learn many to many relations from playground/laravel-2
