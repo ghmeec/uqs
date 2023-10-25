@@ -1,0 +1,7 @@
+FORM TUTORIAL
+https://www.linkedin.com/pulse/how-create-validate-form-laravel-8-muhammad-rehman/
+https://www.positronx.io/laravel-contact-form-example-tutorial/
+https://www.geeksforgeeks.org/different-ways-for-passing-data-to-view-in-laravel/
+
+API TUTORIAL
+https://olodocoder.hashnode.dev/laravel-api-series-setup-database-migrations-and-models
